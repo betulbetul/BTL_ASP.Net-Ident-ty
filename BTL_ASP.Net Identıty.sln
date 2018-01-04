@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyelik.Entity", "Uyelik.Entity\Uyelik.Entity.csproj", "{5A14EAAD-3190-4ACB-874E-07E7C6002210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.Net Identity", "ASP.Net Identity", "{F9B3C97B-071D-40B1-AACF-31592E869C72}"
+	ProjectSection(SolutionItems) = preProject
+		Kurulacak_Seyler.txt = Kurulacak_Seyler.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyelik.DAL", "Uyelik.DAL\Uyelik.DAL.csproj", "{B663A078-6884-4A3A-AB42-ABB467165F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyelik.BLL", "Uyelik.BLL\Uyelik.BLL.csproj", "{AB38D809-42CC-4F83-BA33-6D10EC4AB1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyelik.UI MVC", "Uyelik.UI MVC\Uyelik.UI MVC.csproj", "{938500C6-AA02-49A9-8822-15CC40C83EC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A14EAAD-3190-4ACB-874E-07E7C6002210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A14EAAD-3190-4ACB-874E-07E7C6002210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A14EAAD-3190-4ACB-874E-07E7C6002210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A14EAAD-3190-4ACB-874E-07E7C6002210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B663A078-6884-4A3A-AB42-ABB467165F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B663A078-6884-4A3A-AB42-ABB467165F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B663A078-6884-4A3A-AB42-ABB467165F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B663A078-6884-4A3A-AB42-ABB467165F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB38D809-42CC-4F83-BA33-6D10EC4AB1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB38D809-42CC-4F83-BA33-6D10EC4AB1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB38D809-42CC-4F83-BA33-6D10EC4AB1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB38D809-42CC-4F83-BA33-6D10EC4AB1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938500C6-AA02-49A9-8822-15CC40C83EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938500C6-AA02-49A9-8822-15CC40C83EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938500C6-AA02-49A9-8822-15CC40C83EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938500C6-AA02-49A9-8822-15CC40C83EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A14EAAD-3190-4ACB-874E-07E7C6002210} = {F9B3C97B-071D-40B1-AACF-31592E869C72}
+		{B663A078-6884-4A3A-AB42-ABB467165F6D} = {F9B3C97B-071D-40B1-AACF-31592E869C72}
+		{AB38D809-42CC-4F83-BA33-6D10EC4AB1C4} = {F9B3C97B-071D-40B1-AACF-31592E869C72}
+		{938500C6-AA02-49A9-8822-15CC40C83EC0} = {F9B3C97B-071D-40B1-AACF-31592E869C72}
+	EndGlobalSection
+EndGlobal
